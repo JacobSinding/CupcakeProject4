@@ -16,15 +16,8 @@
 
         <div>
             <div class="jumbotron text-center">
-                <overskrift1>VELKOMMEN TIL OLSKER CUPCAKES</overskrift1>
-            <br>
-                <underoverskrift1>
-                    Vi elsker cupcakes.
-                    Hos os kan du købe de lækreste cupcakes.
-                    Vi har flere forskellige cupcakes, men du kan også sammensætte dine egne.
-                    Blandt bunde kan du vælge mellem chokolade, vanilje, funfetti og blåbær.
-                    Som topping har vi blandt andet; strawberrywhip, unicorn, mango og double choko
-                </underoverskrift1>
+                <underoverskrift1>VORES MENUKORT</underoverskrift1>
+
             </div>
 
             <c:if test="${sessionScope.role == 'employee' }">
