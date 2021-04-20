@@ -28,7 +28,6 @@
                 <button type = "button" class="btn btn-light" href="#">OM</button>
                 <button type = "button" class="btn btn-light" href="#">MENU</button>
                 <button type = "button" class="btn btn-light" href="#">KURV</button>
-
                 <div>
 
                     <c:if test="${sessionScope.user != null }">

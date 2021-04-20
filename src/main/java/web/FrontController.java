@@ -38,7 +38,7 @@ public class FrontController extends HttpServlet
             }
         }
 
-        // Initialize whatever global datastructures needed here:
+        // Initialize whatever global datastructures needed here lektion 2/5:
 
     }
 
