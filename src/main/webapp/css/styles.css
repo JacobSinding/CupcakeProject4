@@ -29,3 +29,19 @@ underoverskrift1{
     margin-right: auto;
     margin-left: auto;
 }
+
+underoverskrift2{
+    font-family: Dubai, serif;
+    font-size: 27px;
+    color: #1c1863;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+normaltext1{
+    font-family: Dubai, serif;
+    font-size: 22px;
+    color: #1c1863;
+    margin-right: auto;
+    margin-left: auto;
+}
