@@ -10,11 +10,16 @@
     </jsp:attribute>
 
     <jsp:body>
-        <h1>Hello ${sessionScope.email} </h1>
-        You are now logged in as a Customer of our wonderful site.
-
-
-        Role: ${sessionScope.role}
+        <h1>Velkommen til Min Side: </h1>
+        <br>
+        <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">Gå til Menu</a>
+        <a type = "button" class="btn btn-light" href="https://www.youtube.com/watch?v=4z95SAFud7w&ab_channel=J-LL.KJean-LouisKayitenkore">Mine Køb</a>
+        <br>
+        <br>
+        <p1> Du er logget ind som: ${sessionScope.email} </p1>
+        <br>
+        <br>
+        <p1> Adgangs rettigheder: ${sessionScope.role} </p1>
     </jsp:body>
 
 </t:genericpage>

@@ -34,7 +34,9 @@
 
              <c:if test="${sessionScope.role == 'customer' }">
                 <p style="font-size: larger">Velkommen til kundesiden for Olsker cupcakes</p>
-                <p><a href="fc/customerpage">Customer Page</a>
+
+
+            <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/customerpage">Min Side</a>
             </c:if>
 
         </div>
