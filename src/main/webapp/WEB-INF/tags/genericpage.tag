@@ -18,10 +18,7 @@
     <meta name="theme-color" content="#7952b3">
 </head>
 <body>
-    <!--
-        This header is inspired by this bootstrap
-        example: https://getbootstrap.com/docs/5.0/examples/pricing/
-    -->
+
 <div class = header>
     <nav class = "navbar navbar-light bg-light">
         <div class = "container-fluid">
@@ -78,4 +75,3 @@
 
 </body>
 </html>
-
