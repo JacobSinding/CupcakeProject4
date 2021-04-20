@@ -27,10 +27,10 @@
         <div class = "container-fluid">
             <a class = navbar-brand" href = "#">
                 <img src="images/banner1.jpg" alt = "LOGO" height="164" width="580">
-                <button type = "button" class="btn btn-light" href="#">FORSIDE</button>
-                <button type = "button" class="btn btn-light" href="#">OM</button>
-                <button type = "button" class="btn btn-light" href="#">MENU</button>
-                <button type = "button" class="btn btn-light" href="#">KURV</button>
+                <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/index">FORSIDE</a>
+                <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/about">OM</a>
+                <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">MENU</a>
+                <a type = "button" class="btn btn-light" href="#">KURV</a>
 
                 <div>
 
@@ -61,6 +61,9 @@
 
 </div>
 
+
+
+
 <div id="body" class="container" style="min-height: 20vh;">
     <jsp:doBody/>
 </div>
@@ -75,3 +78,4 @@
 
 </body>
 </html>
+
