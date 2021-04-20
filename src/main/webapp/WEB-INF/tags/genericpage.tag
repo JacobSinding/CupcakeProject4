@@ -26,7 +26,7 @@
     <nav class = "navbar navbar-light bg-light">
         <div class = "container-fluid">
             <a class = navbar-brand" href = "#">
-                <img src="images/banner1.jpg" alt = "LOGO" height="164" width="580">
+                <img src="${pageContext.request.contextPath}/images/banner1.jpg" alt = "LOGO" height="164" width="580">
                 <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/index">FORSIDE</a>
                 <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/about">OM</a>
                 <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">MENU</a>
