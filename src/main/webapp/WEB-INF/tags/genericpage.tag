@@ -27,7 +27,8 @@
                 <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/index">FORSIDE</a>
                 <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/about">OM</a>
                 <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">MENU</a>
-                <a type = "button" class="btn btn-light" href="#">KURV</a>
+                <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/basket">KURV</a>
+
 
                 <div>
 

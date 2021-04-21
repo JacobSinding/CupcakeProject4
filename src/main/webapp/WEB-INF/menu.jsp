@@ -98,7 +98,7 @@
                 </table>
             </div>
             <div class = "jumbotron">
-                <form action="menu.jsp"> <!-- Skal måske ændres til kurv -->
+                <form method="post" action="${pageContext.request.contextPath}/fc/basket">
                     <!--  -->
                     <label for = "Menu"> Vælg en cupcake</label>
                     <select name = "Menu" id = "Menu">
@@ -108,7 +108,7 @@
                         <option value = "Pina colada">Piña colada</option>
                     </select>
                     <br>
-                    <label for = "Bunde"> Vælg en bund</label>
+                    <label for = "Bunde"> Vælg en bund </label>
                     <select name = "Bunde" id = "Bunde">
                         <option value = "Chokoladebund">Chokoladebund</option>
                         <option value = "Vaniljebund">Vaniljebund</option>
@@ -134,6 +134,7 @@
                         <option value = "Bærsymfoniwhip">Bærsymfoni</option>
                         <option value = "Dannebrogswhip">Dannebrogswhip</option>
                     </select>
+                    <button type="Tilføj til Kurv">Tilføj til Kurv</button>
                 </form>
             </div>
 
