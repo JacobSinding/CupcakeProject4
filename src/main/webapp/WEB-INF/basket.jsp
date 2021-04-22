@@ -11,24 +11,55 @@
         <c:set var="addHomeLink" value="${true}" scope="request"/>
     </jsp:attribute>
     <jsp:body>
-        <div>
-            <p>
-                <underoverskrift2>
-                Du har valgt Cupcake: ${requestScope.cupcake}
-                <br>
-                Du har valgt Bund: ${requestScope.bund}
-                <br>
-                Du har valgt Topping: ${requestScope.topping}
-                </underoverskrift2>
-            </p>
-        </div>
-        <div>
-            <c:if test="${sessionScope.role == 'customer' }">
-                <normaltext1>Mine Køb For: ${sessionScope.email} </normaltext1>
+        <h1>Min Kurv</h1>
+<br>
 
-                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/customerpage">Min
-                    Side</a>
-            </c:if>
-        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cupcake</th>
+                <th scope="col">Bottom</th>
+                <th scope="col">Topping</th>
+                <th scope="col">Pris</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>${requestScope.cupcake}</td>
+                <td>${requestScope.bottom}</td>
+                <td>${requestScope.topping}</td>
+                <td>${requestScope.topping}</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>${requestScope.cupcake}</td>
+                <td>${requestScope.bottom}</td>
+                <td>${requestScope.topping}</td>
+                <td>${requestScope.topping}</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>${requestScope.cupcake}</td>
+                <td>${requestScope.bottom}</td>
+                <td>${requestScope.topping}</td>
+                <td>${requestScope.topping}</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>${requestScope.cupcake}</td>
+                <td>${requestScope.bottom}</td>
+                <td>${requestScope.topping}</td>
+                <td>${requestScope.topping}</td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">Shop
+            videre</a>
+        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/basket">Køb</a>
+
+
     </jsp:body>
 </t:genericpage>
