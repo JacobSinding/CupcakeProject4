@@ -284,8 +284,9 @@
             </table>
         </div>
 
-            <form method="post" action="${pageContext.request.contextPath}/fc/basket">
-                <!--  -->
+        <form method="post" action="${pageContext.request.contextPath}/fc/basket">
+                <!-- I vores </option> tag, der er "value" = værdien på objektet. Og efter > tagget,
+                 speciferer vi navnet på objektet, dette er også hvad der vil blive vist på hjemmesiden.  -->
                 <label for="cupcake"> Vælg en cupcake</label>
                 <select name="cupcake" id="cupcake">
                     <option value="Fødselsdag">Fødselsdag</option>
@@ -320,7 +321,50 @@
                     <option value="Bærsymfoniwhip">Bærsymfoni</option>
                     <option value="Dannebrogswhip">Dannebrogswhip</option>
                 </select>
-                <button type="Tilføj til Kurv">Tilføj til Kurv</button>
+
+
+
+        <!-- DO NOT DELETE THIS COMMENTED CODE. It's still WIP.
+
+
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <label class="form-check-label" for="top">Topping:</label>
+                <select class="form-control" name="top" id="top">
+                    <c:forEach var="topItem" items="${applicationScope.topList}">
+                        <option value="${topItem.topId}">${topItem.name} (${topItem.price} kr.)
+                        </option>
+                    </c:forEach>
+                </select>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                <label class="form-check-label" for="bottom">Bund:</label>
+                <select class="form-control" name="bottom" id="bottom">
+                    <c:forEach var="bottomItem" items="${applicationScope.bottomList}">
+                        <option value="${bottomItem.bottomId}">${bottomItem.name} (${bottomItem.price} kr.)
+                        </option>
+                    </c:forEach>
+                </select>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                <label for="quantity">Antal: </label>
+                <select class="form-control" name="quantity" id="quantity">
+                    <c:forEach var="quantity" begin="1" end="10">
+                        <option value="${quantity}">${quantity} stk</option>
+                    </c:forEach>
+                </select>
+            </div>
+        </div>
+        -->
+        <div class="col">
+                <button type="submit" class="btn-primary mt-4">Læg i kurven</button>
+        </div>
+        </div>
             </form>
         </div>
 
