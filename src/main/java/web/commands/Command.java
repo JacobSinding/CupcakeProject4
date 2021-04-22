@@ -28,8 +28,11 @@ public abstract class Command
         commands.put("registercommand", new RegisterCommand(""));
         commands.put("customerpage", new CommandProtectedPage("customerpage", "customer"));
         commands.put("employeepage", new CommandProtectedPage("employeepage", "employee"));
+        commands.put("insertpage", new CommandProtectedPage("insertpage", "employee"));
+        commands.put("insertbalcommand", new InsertBalCommand("resultpage", "employee"));
         commands.put("about", new CommandUnprotectedPage("about"));
         commands.put("menu", new CommandUnprotectedPage("menu"));
+
 
 
     }
