@@ -13,11 +13,15 @@ public class CalcCupcakeOrders extends CommandUnprotectedPage{
     }
 
     @Override
-    public String execute(HttpServletRequest request, HttpServletResponse response) throws UserException
-    {
+    public String execute(HttpServletRequest request, HttpServletResponse response) throws UserException {
         String cupcake = "";
         String bund = "";
         String topping = "";
+
+        cupcake = request.getParameter(cupcake);
+        bund = request.getParameter(bund);
+        topping = request.getParameter(topping);
+
 
         request.setAttribute("cupcake", cupcake);
         request.setAttribute("bund", bund);
