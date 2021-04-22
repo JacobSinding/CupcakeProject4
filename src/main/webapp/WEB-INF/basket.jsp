@@ -13,16 +13,18 @@
     <jsp:body>
         <div>
             <p>
+                <underoverskrift2>
                 Du har valgt Cupcake: ${requestScope.cupcake}
                 <br>
                 Du har valgt Bund: ${requestScope.bund}
                 <br>
                 Du har valgt Topping: ${requestScope.topping}
+                </underoverskrift2>
             </p>
         </div>
         <div>
             <c:if test="${sessionScope.role == 'customer' }">
-                <p style="font-size: larger">Mine Køb For: ${sessionScope.email} </p>
+                <normaltext1>Mine Køb For: ${sessionScope.email} </normaltext1>
 
                 <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/customerpage">Min
                     Side</a>
