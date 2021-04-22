@@ -12,8 +12,8 @@
     <jsp:body>
         <h1>Velkommen til Min Side: </h1>
         <br>
-        <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">Gå til Menu</a>
-        <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/result">Mine Køb</a>
+        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">Gå til Menu</a>
+        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/result">Mine Køb</a>
         <br>
         <br>
         <p1> Du er logget ind som: ${sessionScope.email} </p1>
