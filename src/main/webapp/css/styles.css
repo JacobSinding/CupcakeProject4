@@ -3,18 +3,18 @@
     The file is included in the genericpage.tag template
  */
 
-#topmenu_login_dialogue
-{
+#topmenu_login_dialogue {
     font-size: smaller;
 }
-.jumbotron{
+
+.jumbotron {
     padding: 4rem 2rem;
     margin-bottom: 2rem;
     background-color: lightgrey;
     border-radius: .3rem;
 }
 
-overskrift1{
+overskrift1 {
     font-family: Dubai, serif;
     font-size: 90px;
     color: #1c1863;
@@ -22,7 +22,7 @@ overskrift1{
     margin-right: auto;
 }
 
-overskrift2{
+overskrift2 {
     font-family: Dubai, serif;
     font-size: 75px;
     color: #fc3301;
@@ -31,7 +31,7 @@ overskrift2{
 
 }
 
-underoverskrift1{
+underoverskrift1 {
     font-family: Dubai, serif;
     font-size: 45px;
     color: #1c1863;
@@ -39,14 +39,15 @@ underoverskrift1{
     margin-left: auto;
 }
 
-underoverskrift2{
+underoverskrift2 {
     font-family: Dubai, serif;
     font-size: 27px;
     color: #1c1863;
     margin-right: auto;
     margin-left: auto;
 }
-underoverskrift3{
+
+underoverskrift3 {
     font-family: Dubai, serif;
     font-size: 35px;
     color: #1c1863;
@@ -54,10 +55,18 @@ underoverskrift3{
     margin-left: auto;
 }
 
-normaltext1{
+normaltext1 {
     font-family: Dubai, serif;
     font-size: 22px;
     color: #1c1863;
     margin-right: auto;
     margin-left: auto;
+}
+pricetext{
+    font-family: Dubai, serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #1c1863;
+    margin-left: auto;
+    margin-right: auto;
 }

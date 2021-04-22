@@ -10,7 +10,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><jsp:invoke fragment="header"/></title>
+    <title>
+        <jsp:invoke fragment="header"/>
+    </title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -19,15 +21,16 @@
 </head>
 <body>
 
-<div class = header>
-    <nav class = "navbar navbar-light bg-light">
-        <div class = "container-fluid">
-            <a class = navbar-brand" href = "#">
-                <img src="${pageContext.request.contextPath}/images/banner1.jpg" alt = "LOGO" height="164" width="580">
-                <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/index">FORSIDE</a>
-                <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/about">OM</a>
-                <a type = "button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">MENU</a>
-                <a type = "button" class="btn btn-light" href="#">KURV</a>
+<div class=header>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class=navbar-brand" href="#">
+                <img src="${pageContext.request.contextPath}/images/banner1.jpg" alt="LOGO" height="164" width="580">
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/index">FORSIDE</a>
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/about">OM</a>
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">MENU</a>
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/basket">KURV</a>
+
 
                 <div>
 
@@ -57,8 +60,6 @@
     </nav>
 
 </div>
-
-
 
 
 <div id="body" class="container" style="min-height: 20vh;">
