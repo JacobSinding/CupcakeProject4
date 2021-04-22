@@ -60,6 +60,23 @@
                     </tr>
                     <tr>
                         <td>
+                            <pricetext> 55</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 35</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 35</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 25</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 20</pricetext>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <underoverskrift2> Valentin</underoverskrift2>
                         </td>
                         <td>
@@ -91,6 +108,23 @@
                         </td>
                         <td>
                             <normaltext1> Frosting lavet med citron, med ristet citronskrald på toppen</normaltext1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <pricetext> 55</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 30</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 35</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 28</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 22</pricetext>
                         </td>
                     </tr>
                     <tr>
@@ -129,7 +163,24 @@
                     </tr>
                     <tr>
                         <td>
-                            <underoverskrift2> Pina Colada</underoverskrift2>
+                            <pricetext> 55</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 32</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 35</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 22</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 28</pricetext>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <underoverskrift2> Piña Colada</underoverskrift2>
                         </td>
                         <td>
                             <underoverskrift2> Lavabund</underoverskrift2>
@@ -159,6 +210,23 @@
                         </td>
                         <td>
                             <normaltext1> Frosting lavet med smagen af Danmark</normaltext1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <pricetext> 55</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 35</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 30</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 28</pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 25</pricetext>
                         </td>
                     </tr>
                     <tr>
@@ -193,6 +261,23 @@
                         </td>
                         <td>
                             <normaltext1></normaltext1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <pricetext></pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 32</pricetext>
+                        </td>
+                        <td>
+                            <pricetext></pricetext>
+                        </td>
+                        <td>
+                            <pricetext> 38</pricetext>
+                        </td>
+                        <td>
+                            <pricetext></pricetext>
                         </td>
                     </tr>
 
