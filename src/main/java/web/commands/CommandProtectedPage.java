@@ -17,11 +17,8 @@ public class CommandProtectedPage extends Command {
     }
 
     @Override
-<<<<<<< HEAD
+
     public String execute(HttpServletRequest request, HttpServletResponse response) throws UserException {
-=======
-    public String execute(HttpServletRequest request, HttpServletResponse response) {
->>>>>>> 20927d07db902bb12df0da0351e44cad07fad730
         return pageToShow;
     }
 
