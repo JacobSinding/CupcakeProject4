@@ -20,10 +20,11 @@
                 <br>
                 <underoverskrift1>
                     Vi elsker cupcakes.
-                    Hos os kan du købe de lækreste cupcakes.
-                    Vi har flere forskellige cupcakes, men du kan også sammensætte dine egne.
-                    Blandt bunde kan du vælge mellem chokolade, vanilje, funfetti og blåbær.
-                    Som topping har vi blandt andet; strawberrywhip, unicorn, mango og double choko
+                    Vi har i flere år lavet, hvad vi selv synes er Danmarks bedste cupcakes.
+                    Hos og er håndværk alt, derfor bager vi selv alle vores bunde
+                    og laver selv alle frostings, whips og cremer. Alle ingredienser er så vidt muligt
+                    danske. Vi skifter vores udvalg engang i mellem så du altid kan smage noget nyt du
+                    besøger os
                 </underoverskrift1>
             </div>
 
