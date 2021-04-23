@@ -19,7 +19,6 @@
                 <table style="width: 100%">
                     <tr>
                         <!-- RET PÅ MENUEN NÅR DEN KAN SES I BROWSEREN. Husk borders og tekst placering-->
-                        <th><underoverskrift3>Vores cupcakes</underoverskrift3></th>
                         <th colspan="2"><underoverskrift3>Bunde</underoverskrift3></th>
                         <th colspan="2"><underoverskrift3>Toppings</underoverskrift3></th>
                     </tr>
