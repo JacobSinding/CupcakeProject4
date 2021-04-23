@@ -11,54 +11,51 @@
         <c:set var="addHomeLink" value="${true}" scope="request"/>
     </jsp:attribute>
     <jsp:body>
-        <h1>Min Kurv</h1>
-<br>
+        <div class="jumbotron text-center">
+            <underoverskrift1>MIN KURV</underoverskrift1>
 
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Cupcake</th>
-                <th scope="col">Bottom</th>
-                <th scope="col">Topping</th>
-                <th scope="col">Pris</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>${requestScope.cupcake}</td>
-                <td>${requestScope.bottom}</td>
-                <td>${requestScope.topping}</td>
-                <td>${requestScope.topping}</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>${requestScope.cupcake}</td>
-                <td>${requestScope.bottom}</td>
-                <td>${requestScope.topping}</td>
-                <td>${requestScope.topping}</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>${requestScope.cupcake}</td>
-                <td>${requestScope.bottom}</td>
-                <td>${requestScope.topping}</td>
-                <td>${requestScope.topping}</td>
-            </tr>
-            <tr>
-                <th scope="row">4</th>
-                <td>${requestScope.cupcake}</td>
-                <td>${requestScope.bottom}</td>
-                <td>${requestScope.topping}</td>
-                <td>${requestScope.topping}</td>
-            </tr>
-            </tbody>
-        </table>
+            <table class = "table">
+                <thead>
+                <tr>
+                    <th scope="col"><underoverskrift4>#</underoverskrift4></th>
+                    <th scope="col"><underoverskrift4>Bund</underoverskrift4></th>
+                    <th scope="col"><underoverskrift4>Topping</underoverskrift4></th>
+                    <th scope="col"><underoverskrift4>Pris</underoverskrift4></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row"><underoverskrift4>1</underoverskrift4></th>
+                    <td><pricetext>${requestScope.bottom}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                </tr>
+                <tr>
+                    <th scope="row"><underoverskrift4>2</underoverskrift4></th>
+                    <td><pricetext>${requestScope.bottom}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                </tr>
+                <tr>
+                    <th scope="row"><underoverskrift4>3</underoverskrift4></th>
+                    <td><pricetext>${requestScope.bottom}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                </tr>
+                <tr>
+                    <th scope="row"><underoverskrift4>4</underoverskrift4></th>
+                    <td><pricetext>${requestScope.bottom}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                    <td><pricetext>${requestScope.topping}</pricetext></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
         <br>
-        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">Shop
-            videre</a>
-        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/basket">Køb</a>
+        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu"><button2>SHOP
+            VIDERE</button2></a>
+        <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/basket"><button2>KØB
+            </button2></a>
 
 
     </jsp:body>
