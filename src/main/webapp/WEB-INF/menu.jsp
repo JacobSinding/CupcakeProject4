@@ -19,14 +19,11 @@
                 <table style="width: 100%">
                     <tr>
                         <!-- RET PÅ MENUEN NÅR DEN KAN SES I BROWSEREN. Husk borders og tekst placering-->
-                        <th>Vores cupcakes</th>
-                        <th colspan="2">Bunde</th>
-                        <th colspan="2">Toppings</th>
+                        <th><underoverskrift3>Vores cupcakes</underoverskrift3></th>
+                        <th colspan="2"><underoverskrift3>Bunde</underoverskrift3></th>
+                        <th colspan="2"><underoverskrift3>Toppings</underoverskrift3></th>
                     </tr>
                     <tr>
-                        <td>
-                            <underoverskrift2> Fødselsdag</underoverskrift2>
-                        </td>
                         <td>
                             <underoverskrift2> Chokoladebund</underoverskrift2>
                         </td>
@@ -42,9 +39,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <normaltext1> Funfettibund med vanilje whip og tivolikrymmel</normaltext1>
-                        </td>
-                        <td>
                             <normaltext1> Helt almindelig chokoladebund, lavet med 70% chokolade</normaltext1>
                         </td>
                         <td>
@@ -58,9 +52,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <pricetext> 55</pricetext>
-                        </td>
                         <td>
                             <pricetext> 35</pricetext>
                         </td>
@@ -76,9 +67,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <underoverskrift2> Valentin</underoverskrift2>
-                        </td>
-                        <td>
                             <underoverskrift2> Vaniljebund</underoverskrift2>
                         </td>
                         <td>
@@ -92,9 +80,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <normaltext1> Chokoladebund med strawberry whip og hjertekrymmel</normaltext1>
-                        </td>
                         <td>
                             <normaltext1> Helt almindelig vaniljebund lavet med burbon vanilje</normaltext1>
                         </td>
@@ -111,9 +96,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <pricetext> 55</pricetext>
-                        </td>
-                        <td>
                             <pricetext> 30</pricetext>
                         </td>
                         <td>
@@ -127,9 +109,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <underoverskrift2> Chokoladedrøm</underoverskrift2>
-                        </td>
                         <td>
                             <underoverskrift2> Funfettibund</underoverskrift2>
                         </td>
@@ -145,9 +124,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <normaltext1> Lavabund med double choko frosting</normaltext1>
-                        </td>
-                        <td>
                             <normaltext1> Vaniljebund med tivolikrymmel</normaltext1>
                         </td>
                         <td>
@@ -161,9 +137,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <pricetext> 55</pricetext>
-                        </td>
                         <td>
                             <pricetext> 32</pricetext>
                         </td>
@@ -179,9 +152,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <underoverskrift2> Piña Colada</underoverskrift2>
-                        </td>
-                        <td>
                             <underoverskrift2> Lavabund</underoverskrift2>
                         </td>
                         <td>
@@ -195,9 +165,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <normaltext1> Appelsinbund med mango whip</normaltext1>
-                        </td>
                         <td>
                             <normaltext1> Chokoladebund med flydende chokolade i midten</normaltext1>
                         </td>
@@ -213,9 +180,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <pricetext> 55</pricetext>
-                        </td>
-                        <td>
                             <pricetext> 35</pricetext>
                         </td>
                         <td>
@@ -229,9 +193,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <underoverskrift2></underoverskrift2>
-                        </td>
                         <td>
                             <underoverskrift2> Blåbær</underoverskrift2>
                         </td>
@@ -247,9 +208,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <normaltext1></normaltext1>
-                        </td>
-                        <td>
                             <normaltext1> Vaniljebund med friske blåbær</normaltext1>
                         </td>
                         <td>
@@ -263,9 +221,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <pricetext></pricetext>
-                        </td>
                         <td>
                             <pricetext> 32</pricetext>
                         </td>
@@ -286,13 +241,6 @@
 
             <form method="post" action="${pageContext.request.contextPath}/fc/basket">
                 <!--  -->
-                <label for="cupcake"> Vælg en cupcake</label>
-                <select name="cupcake" id="cupcake">
-                    <option value="Fødselsdag">Fødselsdag</option>
-                    <option value="Valentin">Valentin</option>
-                    <option value="Chokoladedrøm">Chokoladedrøm</option>
-                    <option value="Pina colada">Piña colada</option>
-                </select>
                 <br>
                 <label for="bottom"> Vælg en bund </label>
                 <select name="bottom" id="bottom">
