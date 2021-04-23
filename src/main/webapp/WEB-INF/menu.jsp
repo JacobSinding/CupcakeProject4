@@ -19,8 +19,8 @@
                 <table style="width: 100%">
                     <tr>
                         <!-- RET PÅ MENUEN NÅR DEN KAN SES I BROWSEREN. Husk borders og tekst placering-->
-                        <th colspan="2"><underoverskrift3>Bunde</underoverskrift3></th>
-                        <th colspan="2"><underoverskrift3>Toppings</underoverskrift3></th>
+                        <th colspan="2"><underoverskrift3a>Bunde</underoverskrift3a></th>
+                        <th colspan="2"><underoverskrift3a>Toppings</underoverskrift3a></th>
                     </tr>
                     <tr>
                         <td>
@@ -44,7 +44,7 @@
                             <normaltext1> Vaniljebund med revet appelsin og saft</normaltext1>
                         </td>
                         <td>
-                            <normaltext1> Frosting med jordbær og hjertekrymmel</normaltext1>
+                            <normaltext1> Whip med jordbær og hjertekrymmel</normaltext1>
                         </td>
                         <td>
                             <normaltext1> Helt almindelig vaniljefrosting</normaltext1>
@@ -90,7 +90,7 @@
                             <normaltext1> Chokolade frosting med chokoladestykker</normaltext1>
                         </td>
                         <td>
-                            <normaltext1> Frosting lavet med citron, med ristet citronskrald på toppen</normaltext1>
+                            <normaltext1> Whip lavet med citron, med ristet citronskrald på toppen</normaltext1>
                         </td>
                     </tr>
                     <tr>
@@ -115,10 +115,10 @@
                             <underoverskrift2> Bærsymfoni</underoverskrift2>
                         </td>
                         <td>
-                            <underoverskrift2> Fødselsdagswhip</underoverskrift2>
+                            <underoverskrift2> Fødselsdags frosting</underoverskrift2>
                         </td>
                         <td>
-                            <underoverskrift2> Bærsynmfoniwhip</underoverskrift2>
+                            <underoverskrift2> Bærsymfoniwhip</underoverskrift2>
                         </td>
                     </tr>
                     <tr>
@@ -132,7 +132,7 @@
                             <normaltext1> Vaniljefrosting med tivolikrymmel</normaltext1>
                         </td>
                         <td>
-                            <normaltext1> Frosting med årstidensbær</normaltext1>
+                            <normaltext1> Whip med årstidensbær</normaltext1>
                         </td>
                     </tr>
                     <tr>
@@ -171,10 +171,10 @@
                             <normaltext1> Lækker luftig kage, lavet på kærnemælk, vanilje og kakaopulver</normaltext1>
                         </td>
                         <td>
-                            <normaltext1> Frosting med mango smag og mango stykker</normaltext1>
+                            <normaltext1> Whip med mango smag og mango stykker</normaltext1>
                         </td>
                         <td>
-                            <normaltext1> Frosting lavet med smagen af Danmark</normaltext1>
+                            <normaltext1> Whip lavet med smagen af Danmark</normaltext1>
                         </td>
                     </tr>
                     <tr>

@@ -25,7 +25,7 @@ overskrift1 {
 overskrift2 {
     font-family: Dubai, serif;
     font-size: 75px;
-    color: #fc3301;
+    color: #f26708;
     margin-left: auto;
     margin-right: auto;
 
@@ -77,14 +77,21 @@ pricetext{
 
 button1 {
     font-family: Dubai, serif;
-    font-size: 23px;
+    font-size: 27px;
     color: #1c1863;
     margin-right: auto;
     margin-left: auto;
 }
 button2 {
     font-family: Dubai, serif;
-    font-size: 23px;
+    font-size: 27px;
+    color: #f26708;
+    margin-right: auto;
+    margin-left: auto;
+}
+underoverskrift3a {
+    font-family: Dubai, serif;
+    font-size: 35px;
     color: #f26708;
     margin-right: auto;
     margin-left: auto;

@@ -22,7 +22,7 @@
                     Vi elsker cupcakes.
                     Vi har i flere år lavet, hvad vi selv synes er Danmarks bedste cupcakes.
                     Hos og er håndværk alt, derfor bager vi selv alle vores bunde
-                    og laver selv alle frostings, whips og cremer. Alle ingredienser er så vidt muligt
+                    og laver, så vidt muligt, selv alle frostings, whips og tilbehør. Alle ingredienser er så vidt muligt
                     danske. Vi skifter vores udvalg engang i mellem så du altid kan smage noget nyt du
                     besøger os
                 </underoverskrift1>
