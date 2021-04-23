@@ -25,11 +25,11 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <a class=navbar-brand" href="#">
-                <img src="${pageContext.request.contextPath}/images/banner1.jpg" alt="LOGO" height="164" width="580">
-                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/index">FORSIDE</a>
-                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/about">OM</a>
-                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu">MENU</a>
-                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/basket">KURV</a>
+                <img class="logo" src="${pageContext.request.contextPath}/images/banner1.jpg" alt="LOGO" height="108" width="385">
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/index"><button1>FORSIDE</button1></a>
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/about"><button1>OM</button1></a>
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/menu"><button1>MENU</button1></a>
+                <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/basket"><button1>KURV</button1></a>
 
 
                 <div>
@@ -45,13 +45,13 @@
                     <c:if test="${isNotLoginPage && isNotRegisterPage}">
                     <c:if test="${sessionScope.user != null }">
                         <a type="button" class="btn btn-sm  btn-outline-secondary"
-                           href="${pageContext.request.contextPath}/fc/logoutcommand">Logout</a>
+                           href="${pageContext.request.contextPath}/fc/logoutcommand"><button2>LOGOUT</button2></a>
                     </c:if>
                     <c:if test="${sessionScope.user == null }">
                         <a type="button" class="btn btn-sm  btn-outline-secondary"
-                           href="${pageContext.request.contextPath}/fc/loginpage">Login</a>
+                           href="${pageContext.request.contextPath}/fc/loginpage"><button2>LOGIN</button2></a>
                         <a type="button" class="btn btn-sm  btn-outline-secondary"
-                           href="${pageContext.request.contextPath}/fc/registerpage">Sign up</a>
+                           href="${pageContext.request.contextPath}/fc/registerpage"><button2>SIGN UP</button2></a>
                     </c:if>
                 </div>
                 </c:if>

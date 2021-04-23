@@ -70,3 +70,23 @@ pricetext{
     margin-left: auto;
     margin-right: auto;
 }
+
+.btn-light{
+    font-size: 23px;
+}
+
+button1 {
+    font-family: Dubai, serif;
+    font-size: 23px;
+    color: #1c1863;
+    margin-right: auto;
+    margin-left: auto;
+}
+button2 {
+    font-family: Dubai, serif;
+    font-size: 23px;
+    color: #f26708;
+    margin-right: auto;
+    margin-left: auto;
+}
+
