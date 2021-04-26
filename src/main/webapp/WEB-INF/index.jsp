@@ -29,12 +29,12 @@
             </div>
 
             <c:if test="${sessionScope.role == 'employee' }">
-            <p style="font-size: larger">Du er nu logget ind som medarbejder</p>
-            <p><a href="fc/employeepage">Employee Page</a>
+            <normaltext1>Du er nu logget ind som medarbejder</normaltext1>
+            <nor><a href="fc/employeepage">Employee Page</a>
                 </c:if>
 
                 <c:if test="${sessionScope.role == 'customer' }">
-            <p style="font-size: larger">Velkommen til kundesiden for Olsker cupcakes</p>
+                <normaltext1>Velkommen til kundesiden for Olsker cupcakes</normaltext1>
 
 
             <a type="button" class="btn btn-light" href="${pageContext.request.contextPath}/fc/customerpage">Min
