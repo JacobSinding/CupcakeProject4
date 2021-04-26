@@ -308,7 +308,7 @@
         </div>
         -->
         <div class="col">
-                <button type="submit" class="btn-primary mt-4">Læg i kurven</button>
+            <button type="submit" class="btn-primary mt-4"><button2>Læg i kurven</button2></button>
         </div>
         </div>
             </form>
